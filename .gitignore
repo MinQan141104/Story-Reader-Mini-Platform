@@ -1,0 +1,71 @@
+## .NET / Visual Studio gitignore
+## Nguồn tham khảo: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+artifacts/
+bld/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.vcxproj.user
+
+# Visual Studio
+.vs/
+.vscode/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# MSBuild logs
+*.binlog
+[Bb]uild[Ll]og.*
+
+# Test results
+[Tt]est[Rr]esult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.VisualState.xml
+nunit-*.xml
+TestResult.xml
+CodeCoverage/
+
+# Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+~$*
+*~
+*.bak
+*.log
+*.dbmdl
+publish/
+out/
+
+/prn222_tracking_tool/APIGateway/APIGateway/appsettings.Development.json
+prn222_tracking_tool/Services/AuthenticationService/AuthenticationService.Application/appsettings.Development.json
+/prn222_tracking_tool/Services/ExamService/ExamService.Application/appsettings.Development.json
+/prn222_tracking_tool/Services/GradingService/GradingService.Application/appsettings.Development.json
+/prn222_tracking_tool/Services/AuthenticationService/AuthenticationService.Application/appsettings.Development.json
+/prn222_tracking_tool/Services/ExamService/ExamService.Application/appsettings.Development.json
+/prn222_tracking_tool/Services/GradingService/GradingService.Application/appsettings.Development.json
+prn222_tracking_tool/Services/ExamService/ExamService.Application/Uploads/Students
+prn222_tracking_tool/Services/ExamService/ExamService.Application/Uploads/Rubrics
+/StoryReader/StoryReader.Api/appsettings.Development.json
